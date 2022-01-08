@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display: grid;
+	justify-content: center;
+	font-family: 'Trebuchet MS';
+}
+h1{
+	font-size: 40px;
+	margin-top: 30px;
+	color: blue;
+	text-indent: 30px;
+}
+p{
+	color: red;
+	text-indent: 20px;
+}
+textarea{
+	margin-top: 5px;
+	border: none;
+	border: 1px solid #cecece;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px #cecece;
+}
+span{
+	color: #696969;
+}
+.form-inputs{
+	margin-top: 5px;
+	margin-left: 20px;
+}
+input[type='number']{
+	width: 50px;
+	height: 20px;
+	border: none;
+	border: 2px solid #cecece;
+	border-radius: 5px;
+}
+input[type='submit']{
+	width: 100px;
+	height: 20px;
+	border: none;
+	border: 2px solid #cecece;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #696969;
+}
+.result{
+	max-width: 980px;
+	width: 100%;
+	height: 800px;
+}
